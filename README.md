@@ -10,7 +10,7 @@ flowchart TD
     E --> F[For each Batch: imgs, labels]
     F --> G[Move imgs, labels to device]
 
-    G --> H[Teacher Forward Pass (no grad)]
+    G --> H[Teacher Forward Pass no grad]
     H --> I[Normalize teacher embeddings]
 
     I --> J[AMP Context Start]
